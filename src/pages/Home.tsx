@@ -39,10 +39,13 @@ function Home() {
                 <button>Contact Info</button>
               </div>
               <div>
-                <a href="">
+                <a
+                  href="https://www.linkedin.com/in/ghislainpango/"
+                  target="_blank"
+                >
                   <FaLinkedinIn />
                 </a>
-                <a href="">
+                <a href="https://github.com/pangolongomo" target="_blank">
                   <FaGithub />
                 </a>
               </div>
