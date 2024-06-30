@@ -7,7 +7,7 @@ import { navRoutes } from "../sitemap";
 function Header() {
   const [isOpen, setIsOpen] = useState(false);
   return (
-    <header className="flex justify-between items-center py-6 px-4 md:px-0">
+    <header className="flex justify-between items-center py-6">
       <h1 className="text-3xl">Ghislain Pango</h1>
       <div className="relative">
         <div className="md:hidden flex items-center">
