@@ -14,9 +14,9 @@ import { SiExpress, SiTypescript } from "react-icons/si";
 import { RiTailwindCssFill } from "react-icons/ri";
 import { BiLogoPostgresql } from "react-icons/bi";
 
-function ExperienceSection() {
+function ExperienceSection({ ...rest }) {
   return (
-    <SectionContainer id="experience" subtitle="Explore My" title="Experience">
+    <SectionContainer subtitle="Explore My" title="Experience" {...rest}>
       <div className="w-full flex gap-8 flex-col md:flex-row">
         {experienceKind.map((group) => (
           <ContentGroup key={group.title}>

@@ -3,10 +3,7 @@ import Button from "./ui/Button";
 
 function Hero() {
   return (
-    <section
-      id="hero"
-      className="flex gap-[4rem] items-center py-8 flex-col md:flex-row"
-    >
+    <section className="flex gap-[4rem] items-center py-8 flex-col md:flex-row">
       <div className="flex-1 flex items-center justify-center md:justify-end">
         <img
           src="/assets/img/hero_01.jpg"

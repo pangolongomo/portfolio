@@ -3,7 +3,7 @@ import SectionContainer from "./ui/SectionContainer";
 
 function AboutSection() {
   return (
-    <SectionContainer id="about" title="About Me" subtitle="Get To Know More">
+    <SectionContainer title="About Me" subtitle="Get To Know More">
       <div className="w-2/3 flex flex-col gap-8">
         <div className="flex items-center justify-center flex-col md:flex-row gap-8">
           <ContentGroup>
