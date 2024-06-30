@@ -4,6 +4,7 @@ import { Link } from "react-router-dom";
 import Header from "../components/Header";
 import Hero from "../components/Hero";
 import AboutSection from "../components/AboutSection";
+import ExperienceSection from "../components/ExperienceSection";
 
 function Home() {
   return (
@@ -13,64 +14,8 @@ function Home() {
         <main>
           <Hero />
           <AboutSection />
-          <section id="experience">
-            <h3>
-              <span>Explore My</span>
-              <span>Experience</span>
-            </h3>
-            <div>
-              <div>
-                <h4>Frontend Development</h4>
-                <div>
-                  <div>
-                    <h5>HTML</h5>
-                    <p>Experienced</p>
-                  </div>
-                  <div>
-                    <h5>CSS</h5>
-                    <p>Experienced</p>
-                  </div>
-                  <div>
-                    <h5>SASS</h5>
-                    <p>Intermediate</p>
-                  </div>
-                  <div>
-                    <h5>JavaScript</h5>
-                    <p>Experienced</p>
-                  </div>
-                  <div>
-                    <h5>TypeScript</h5>
-                    <p>Experienced</p>
-                  </div>
-                  <div>
-                    <h5>Tailwind</h5>
-                    <p>Experienced</p>
-                  </div>
-                </div>
-              </div>
-              <div>
-                <h4>Backend Development</h4>
-                <div>
-                  <div>
-                    <h5>PostgreSQL</h5>
-                    <p>Experienced</p>
-                  </div>
-                  <div>
-                    <h5>Node JS</h5>
-                    <p>Experienced</p>
-                  </div>
-                  <div>
-                    <h5>Express JS</h5>
-                    <p>Intermediate</p>
-                  </div>
-                  <div>
-                    <h5>Git</h5>
-                    <p>Experienced</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </section>
+          <ExperienceSection />
+
           <section id="projects">
             <h3>
               <span>Browse My Recent</span>

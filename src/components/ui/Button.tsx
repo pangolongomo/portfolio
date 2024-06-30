@@ -10,9 +10,9 @@ function Button({
 }: PropsWithChildren<ButtonType>) {
   return (
     <button
-      className={`border-2 border-zinc-700 rounded-full px-4 py-3 font-semibold hover:bg-zinc-700 hover:text-white ${
-        type === "filled" && "text-white bg-zinc-700 hover:bg-black"
-      }`}
+      className={`border-2 border-zinc-700 rounded-full px-4 py-3 font-semibold hover:text-white ${
+        type === "outlined" ? "hover:bg-zinc-700" : ""
+      } ${type === "filled" && "text-white bg-zinc-700 hover:bg-black"}`}
     >
       {children}
     </button>
