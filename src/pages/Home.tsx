@@ -3,6 +3,7 @@ import { IoMailOpenOutline } from "react-icons/io5";
 import { Link } from "react-router-dom";
 import Header from "../components/Header";
 import Hero from "../components/Hero";
+import AboutSection from "../components/AboutSection";
 
 function Home() {
   return (
@@ -11,30 +12,7 @@ function Home() {
         <Header />
         <main>
           <Hero />
-          <section id="about">
-            <h3>
-              <span>Get To Know More</span>
-              <span>About Me</span>
-            </h3>
-            <div>
-              <div>
-                <h4>Experience</h4>
-                <p>2+ Years</p>
-                <p>Frontend Development</p>
-              </div>
-              <div>
-                <h4>Education</h4>
-                <p>B.Sc. Bachelors Degree</p>
-                <p>Kadea</p>
-              </div>
-              <p>
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Autem
-                velit reiciendis, ullam rem enim tempora dignissimos beatae
-                mollitia neque eum ad tempore adipisci. Aliquam reprehenderit
-                laboriosam voluptatem dolore porro quia?
-              </p>
-            </div>
-          </section>
+          <AboutSection />
           <section id="experience">
             <h3>
               <span>Explore My</span>
