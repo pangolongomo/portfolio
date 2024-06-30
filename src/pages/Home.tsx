@@ -1,56 +1,16 @@
-import { FaGithub, FaLinkedinIn } from "react-icons/fa6";
+import { FaLinkedinIn } from "react-icons/fa6";
 import { IoMailOpenOutline } from "react-icons/io5";
 import { Link } from "react-router-dom";
+import Header from "../components/Header";
+import Hero from "../components/Hero";
 
 function Home() {
   return (
     <div>
       <div className="container mx-auto">
-        <nav>
-          <h1>Ghislain Pango</h1>
-          <ul>
-            <Link to="#about">
-              <li>About</li>
-            </Link>
-            <Link to="#experience">
-              <li>Experience</li>
-            </Link>
-            <Link to="#projects">
-              <li>Projects</li>
-            </Link>
-            <Link to="#contact">
-              <li>Contact</li>
-            </Link>
-          </ul>
-        </nav>
+        <Header />
         <main>
-          <section>
-            <div>
-              <img src="" alt="" />
-            </div>
-            <div>
-              <h3>
-                <span>Hello I'm</span>
-                <span>Ghislain Pango</span>
-              </h3>
-              <p>Frontend Developer</p>
-              <div>
-                <button>Download CV</button>
-                <button>Contact Info</button>
-              </div>
-              <div>
-                <a
-                  href="https://www.linkedin.com/in/ghislainpango/"
-                  target="_blank"
-                >
-                  <FaLinkedinIn />
-                </a>
-                <a href="https://github.com/pangolongomo" target="_blank">
-                  <FaGithub />
-                </a>
-              </div>
-            </div>
-          </section>
+          <Hero />
           <section id="about">
             <h3>
               <span>Get To Know More</span>
