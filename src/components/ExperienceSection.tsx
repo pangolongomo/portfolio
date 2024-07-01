@@ -24,7 +24,8 @@ function ExperienceSection({ ...rest }) {
               <h4 className="text-center text-zinc-600 text-2xl font-bold">
                 {group.title}
               </h4>
-              <div className="flex flex-wrap gap-4 m-0 p-0">
+
+              <div className="flex flex-wrap gap-4 justify-center">
                 {group.list.map((item) => (
                   <div
                     key={item.technologyName}
