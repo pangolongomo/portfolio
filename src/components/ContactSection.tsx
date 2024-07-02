@@ -7,7 +7,7 @@ function ContactSection() {
   return (
     <SectionContainer subtitle="Get in Touch" title="Contact Me">
       <ContentGroup>
-        <ul className="flex gap-3 md:gap-8 flex-col md:flex-row">
+        <ul className="flex gap-3 md:gap-8 flex-col md:flex-row font-bold items-center">
           {contactList.map((item) => (
             <li key={item.link} className="flex items-center gap-2">
               <item.icon size={20} />
